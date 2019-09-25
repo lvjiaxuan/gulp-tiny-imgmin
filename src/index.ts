@@ -20,9 +20,8 @@ const verifyKey: (key: string) => Promise<boolean> =
 key => new Promise((resolve, reject) => {
 
   if(key === 'imagemin') return reject('imagemin');
-
   if(isTinyKeyValid) return resolve(true);
-  else if(isTinyKeyValid === false) return resolve(false);
+  if(isTinyKeyValid === false) return resolve(false);
 
   tinify.key = key;
   tinify.validate(error => {
