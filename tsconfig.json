@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "target": "esnext",
+    "module": "commonjs",
+    "baseUrl": "./"
+  },
+  "include": [
+    "./src/*"
+  ]
+}
