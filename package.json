@@ -7,9 +7,10 @@
     "gulp": "gulp",
     "tiny": "gulp tiny"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "lvjiaxuan",
+  "license": "MIT",
+  "repository": "https://github.com/lvjiaxuan/gulp-tiny-imgmin",
+  "keywords": ["gulp", "compress", "image"],
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
